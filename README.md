@@ -10,4 +10,4 @@ Then, let $f(z)$ be denoted by $z'$, whereas:
 $$z' = x' + iy'$$
 <br>
 We may think of the function $f$ as a transformation in a complex plane, which moves any given point $(x,y)$ to $(x',y')$.
-![Points' transformation](PNG/points.png)
+![Pointstransformation](PNG/Output1.png)
