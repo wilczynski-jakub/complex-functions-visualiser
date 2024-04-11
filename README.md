@@ -11,7 +11,7 @@ Then, let $f(z)$ be denoted by $z'$, whereas:
 $$z' = x' + iy'$$
 <br>
 We may think of the function $f$ as a transformation in a complex plane, which moves any given point $(x,y)$ to $(x',y')$:
-### ![Transformation](img/transformation.png)
+### ![Transformation](img/points.png)
 In this program, each pixel of a given input image will be treated as a point of coordinates $(x,y)$, and all transformed pixels will form the output image.
 
 
