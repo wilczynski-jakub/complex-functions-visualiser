@@ -7,7 +7,6 @@
 package gui;
 import maths.*;
 
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
@@ -73,8 +72,7 @@ public class ComplexPlane {
     // Generate the output image, applying a given function to the input image
     public BufferedImage remap(ComplexFunction function) {
 
-        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
-        BufferedImage result = new BufferedImage(screen.width, screen.height,
+        BufferedImage result = new BufferedImage(this.width*10, this.height*10,
                                               BufferedImage.TYPE_INT_ARGB);
         ComplexNumber input;
         // Multiple output numbers - to make the image more condensed
