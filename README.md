@@ -4,11 +4,11 @@ A program written in Java to visualise complex functions, using custom graphic i
 
 ## The idea behind
 Let $z$ be a complex number, such that:
-$$z = x + iy$$
+$$z = x + iy,\ \ \ x,y \in \mathbb{R}$$
 and let $f$ be any complex function:
 $$f: \mathbb{C} \rightarrow \mathbb{C}$$
 Then, let $f(z)$ be denoted by $z'$, whereas:
-$$z' = x' + iy'$$
+$$z' = x' + iy',\ \ \ x',y' \in \mathbb{R}$$
 <br>
 We may think of the function $f$ as a transformation in a complex plane, which moves any given point $(x,y)$ to $(x',y')$:
 ### ![Transformation](img/points.png)
@@ -41,5 +41,5 @@ Of course, you can always change the [input image](src/Input.png).
 ### $f(z) = sin(z)$
 ![Output4](img/Output4.png)
 
-### $f(z) = 200 z^{-1}$
+### $f(z) = 200\ z^{-1}$
 ![Output6](img/Output6.png)
